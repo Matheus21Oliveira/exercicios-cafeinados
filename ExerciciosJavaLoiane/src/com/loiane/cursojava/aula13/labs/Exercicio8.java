@@ -3,7 +3,6 @@ package com.loiane.cursojava.aula13.labs;
 import java.util.Scanner;
 
 public class Exercicio8 {
-
 	public static void main(String[] args) {
 		Scanner teclado = new Scanner(System.in);
 		double salario, horaTrabalhada, hora;
@@ -17,6 +16,7 @@ public class Exercicio8 {
 		salario = hora * horaTrabalhada;
 		
 		System.out.println("Voce receberá no mês: " + salario);
+		
+		teclado.close();
 	}
-
 }

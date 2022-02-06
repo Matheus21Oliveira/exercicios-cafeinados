@@ -26,5 +26,7 @@ public class Exercicio11 {
 		System.out.println("O produto do dobro do primeiro com metade do segundo é: " + resposta1);
 		System.out.println("A soma do triplo do primeiro com o terceiro é: " + resposta2);
 		System.out.println("O terceiro elevado ao cubo é: " + resposta3);
+		
+		teclado.close();
 	}
 }

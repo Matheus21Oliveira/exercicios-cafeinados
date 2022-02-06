@@ -15,5 +15,7 @@ public class Exercicio9 {
 		celsius = (temperatura - 32)/1.8; 
 		
 		System.out.print("O valor da temperatura em Celsius é: " + celsius);
+		
+		teclado.close();
 	}
 }

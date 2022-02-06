@@ -14,5 +14,7 @@ public class Exercicio10 {
 		farenheit = (temperatura * 1.8) + 32; 
 		
 		System.out.print("O valor da temperatura em Celsius é: " + farenheit);
+		
+		teclado.close();
 	}
 }
